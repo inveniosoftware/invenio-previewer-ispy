@@ -24,16 +24,42 @@ from invenio.ext.assets import Bundle
 
 js = Bundle(
     "js/previewer/ispy/init.js",
+    "vendors/ispy-online/js/jszip.min.js",
+    "vendors/ispy-online/js/elab.js",
+    "vendors/ispy-online/js/utils.js",
+    "vendors/ispy-online/js/flexcroll.js",
+    "vendors/jquery/dist/jquery.min.js",
+    "vendors/ispy-online/js/pre3d.js",
+    "vendors/ispy-online/js/pre3d_shape_utils.js",
+    "vendors/ispy-online/js/demo_utils.js",
+    "vendors/ispy-online/js/object-conversion.js",
+    "vendors/ispy-online/js/detector-model-gen.js",
+    "vendors/ispy-online/js/detector-model-geometry.js",
+    "vendors/ispy-online/js/data-description.js",
+    "vendors/ispy-online/js/eventdisplay.js",
+    "vendors/ispy-online/js/about.js",
+    "vendors/ispy-online/js/event-browser.js",
+    "vendors/ispy-online/js/range-selection.js",
+    "vendors/ispy-online/js/settings.js",
+    "vendors/ispy-online/js/speed-test.js",
     output="previewer_ispy.js",
     filters="requirejs",
     weight=51,
     bower={
+      "ispy-online": "latest"
     }
 )
 
 styles = Bundle(
     "css/previewer/ispy.css",
-    output="previewer_ispy.css",
+    "vendors/ispy-online/css/scrollbar.css",
+    "vendors/ispy-online/css/eventdisplay.css",
+    "vendors/ispy-online/css/settings.css",
+    "vendors/ispy-online/css/range-selection.css",
+    "vendors/ispy-online/css/event-browser.css",
+    "vendors/ispy-online/css/speed-test.css",
+    "vendors/font-awesome/css/font-awesome.min.css",
+  output="previewer_ispy.css",
     filters="cleancss",
     weight=51
 )
