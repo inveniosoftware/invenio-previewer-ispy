@@ -10,7 +10,8 @@ python:
   - "pypy"
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-install: pip install -r requirements.txt
+install: pip install check-manifest -r requirements.txt
 
 # command to run tests, e.g. python setup.py test
 script: python setup.py test
+  - "check-manifest --ignore .travis-\\*-requirements.txt"
