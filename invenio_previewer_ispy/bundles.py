@@ -74,7 +74,7 @@ js = Bundle(
     filters="requirejs",
     weight=51,
     bower={
-    "ispy-webgl": "0.9.4-invenio.21"
+    "ispy-webgl": "0.9.4-invenio.22"
     }
 )
 
