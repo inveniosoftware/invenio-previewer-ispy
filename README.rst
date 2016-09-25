@@ -15,7 +15,7 @@ Invenio-Previewer-ISPY
 Invenio previewer extension for ISPY visualization tool.
 
 * Free software: GPLv2 license
-* Documentation: https://invenio-previewer-ispy.readthedocs.org.
+* Documentation: https://invenio-previewer-ispy.readthedocs.io.
 
 Features
 --------
