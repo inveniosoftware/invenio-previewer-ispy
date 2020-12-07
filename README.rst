@@ -5,8 +5,8 @@ Invenio-Previewer-ISPY
 .. image:: https://badge.fury.io/py/invenio-previewer-ispy.png
     :target: http://badge.fury.io/py/invenio-previewer-ispy
 
-.. image:: https://travis-ci.org/inveniosoftware/invenio-previewer-ispy.png?branch=master
-        :target: https://travis-ci.org/inveniosoftware/invenio-previewer-ispy
+.. image:: https://github.com/inveniosoftware/invenio-previewer-ispy/workflows/CI/badge.svg
+        :target: https://github.com/inveniosoftware/invenio-previewer-ispy/actions
 
 .. image:: https://pypip.in/d/invenio-previewer-ispy/badge.png
         :target: https://pypi.python.org/pypi/invenio-previewer-ispy
